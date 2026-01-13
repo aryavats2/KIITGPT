@@ -1,1 +1,19 @@
 # KIITGPT
+Flask-based chatbot for KIIT students with:
+- PYQ retrieval via local PYQ_LINKS.txt
+- PDF uploads (persisted to DB)
+- Web scraping + TF-IDF
+- Groq LLM fallback
+
+## Run locally
+1. Create virtualenv, install:
+pip install -r requirements.txt
+
+markdown
+Copy code
+2. Run:
+python app.py
+
+markdown
+Copy code
+3. Open: http://127.0.0.1:5000
